@@ -1,0 +1,193 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    background-color: #6D9886;
+    border-bottom: solid #94B49F;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu p {
+    position: relative;
+    font-size: 30px;
+    color: #FFFFFF;
+    margin: 15px;
+}
+
+ul {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+li {
+    display: inline;
+    padding: 15px;
+}
+
+li a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+li a:hover {
+    color: #393E46;
+    font-weight: bold;
+}
+
+main h1 {
+    text-align: center;
+    padding: 20px;
+    color: #05595B;
+    margin-top: 80px;
+}
+
+.journal {
+    width: 60%;
+    margin: auto;
+}
+
+.journal h2 {
+    display: inline;
+    color: #FFFFFF;
+    background-color: #6D9886;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.journal p {
+    width: 80%;
+    display: inline-block;
+    border: solid #6D9886;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px;
+}
+
+.journal p:hover {
+    background-color: #94B49F;
+}
+
+p a {
+    text-decoration: none;
+    color: #062C30;
+    font-size: 20px;
+}
+
+p a:hover {
+    color: #FFFFFF;
+}
+
+.add {
+    border: solid #05595B;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #FFFFFF;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.add:hover {
+    background-color: #6D9886;
+    color: #FFFFFF;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.container1 {
+    display: flex;
+    height: 550px;
+}
+
+.images img {
+    width: 400px;
+}
+
+.images,
+.text {
+    margin: auto;
+}
+
+.text {
+    width: 400px;
+    text-align: center;
+}
+
+.text h3 {
+    font-size: 70px;
+    color: #05595B;
+}
+
+.text p {
+    padding: 10px;
+    word-spacing: 2px;
+    line-height: 20px;
+}
+
+.goto {
+    border: solid #05595B;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #05595B;
+    margin-top: 10px;
+}
+
+.goto:hover {
+    background-color: #FFFFFF;
+}
+
+.goto a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.goto a:hover {
+    color: #05595B;
+}
+
+.footer {
+    position: absolute;
+    width: 100%;
+    background-color: #6D9886;
+    bottom: 0;
+    left: 0;
+}
+
+.footer p {
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 4px;
+}
+
+@media screen and (max-width: 550px) {
+    nav {
+        width: 100%;
+    }
+
+    nav,
+    .menu ul {
+        position: relative;
+        width: 100%;
+    }
+
+    .container1,
+    .images,
+    .text {
+        display: inline;
+        width: 100%;
+    }
+  }
