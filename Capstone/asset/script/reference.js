@@ -23,5 +23,25 @@ const journal = [
         id : 5,
         title : "Waterer, G. (2021, September 1). What is pneumonia? Breathe. European Respiratory Society.",
         link : "https://www.mendeley.com/catalogue/da1f8276-64c0-33b1-96a6-98c88827eb93/"
-    }
+    },
+    {
+        id : 6,
+        title : "Content Based Image Retrieval Using Euclidean Distance to Detect Pneumonia in X-Ray Thorax Image",
+        link : "http://www.jurnal.upnyk.ac.id/index.php/semnasif/article/view/6077"
+    },
+    {
+        id : 7,
+        title : "dentifikasi Pneumonia Pada Citra X-Ray Paru-Paru Menggunakan Metode Convolutional Neural Network (CNN) Berdasarkan Ekstraksi Fitur Sobel",
+        link : "https://ejournal.unib.ac.id/index.php/rekursif/article/view/17247"
+    },
+    {
+        id : 8,
+        title : "Classification of Pneumonia on X-Rays Lung Image Using GLCM and LVQ",
+        link : "https://jurnal.mdp.ac.id/index.php/algoritme/article/view/897"
+    },
+    {
+        id : 9,
+        title : "SISTEM PAKAR MENDIAGNOSA PENYAKIT PNEUMONIA DENGAN MENGGUNAKAN METODE BAYES",
+        link : "https://www.ejurnal.stmik-budidarma.ac.id/index.php/jurikom/article/view/788"
+    },
 ];
