@@ -12,6 +12,7 @@ class NavBar extends HTMLElement {
                 <li><a href="homePage.html">Home</a></li>
                 <li><a href="detection.html">Detection</a></li>
                 <li><a href="reference.html">Reference</a></li>
+                <li><a href="myLibrary.html">My Library</a></li>
             </ul>
             </div>
         </nav>
