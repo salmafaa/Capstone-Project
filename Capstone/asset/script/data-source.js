@@ -4,7 +4,6 @@ $.each(journal, (i, j) => {
         <div class="journal">
         <h2>${j.id}</h2>
         <p><a href="${j.link}">${j.title}</a></p>
-        <button class="add">+</button>
         </div>
     `;
     console.log(output);
