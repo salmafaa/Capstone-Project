@@ -5,7 +5,9 @@ class FooterBar extends HTMLElement {
 
     render() {
         this.innerHTML = `
-        
+        <div class="footer"> 
+            <p> More Info </p>
+        </div>
         `;
     }
 }
