@@ -60,4 +60,4 @@ def predict():
 
 if __name__ == '__main__':
     print('*** App Started ***')
-    app.run(debug=True)
+    app.run(debug=True,Host='3000')
