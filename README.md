@@ -17,17 +17,17 @@ Alasan: Minimnya aplikasi serupa yang membantu membedakan hasil rontgen paru-par
 ketik ```flask run``` dalam folder project untuk mendapatkan url localhost
 
 ### Resource
-##### Tools yang dipakai
+#### Tools yang dipakai
 - Google Collaboratory
 - Visual Studio Code
 
-##### Bahasa pemograman
+#### Bahasa pemograman
 - Python
 - HTML
 - CSS
 - Javascript
 
-##### Library
+#### Library
 - Pandas
 - Numpy
 - Sklearn
@@ -35,17 +35,10 @@ ketik ```flask run``` dalam folder project untuk mendapatkan url localhost
 - Keras
 - Flask
 
-##### Dataset
+#### Dataset
 [Pneumonia x-ray rontgen](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia)
 
 ### Team C22-035
-1. M332Y0887 - Alifia Zumrotul Nisa’
-2. M332Y0890 - Nurul Komaria
-3. M358X0917 - Johan Rizky Triosaputra
-4. M006Y0017 - Salma Fauziah Azzahra
-
-
-### Tim C22-035
 
 **Anggota :**
 
