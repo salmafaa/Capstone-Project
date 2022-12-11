@@ -12,9 +12,11 @@ Alasan: Minimnya aplikasi serupa yang membantu membedakan hasil rontgen paru-par
 1. Clone repositori ini
 
 ```https://github.com/salmafaa/Capstone-Project.git```
+
 2. Install Virtual Environment Python dari terminal
 
 ```pip install -r requirements.txt```
+
 3. Buka localhost
 
 ketik ```flask run``` dalam folder project untuk mendapatkan url localhost
