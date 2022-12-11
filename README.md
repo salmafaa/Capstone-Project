@@ -2,7 +2,7 @@
 
 ## Dicoding Capstone Project Tim C22-035
 
-[https://github.com/salmafaa/Capstone-Project/blob/main/data/homepage.png](https://github.com/salmafaa/Capstone-Project/blob/main/data/homepage.png?raw=true)
+![homepage](https://user-images.githubusercontent.com/81506579/206904984-d6184931-ba71-43d2-8526-e01cf9ede192.png)
 
 ### Tentang Projek
 Membantu mahasiswa/pelajar terkhusus di bidang kesehatan atau umum dalam belajar membedakan rontgen paru-paru normal dan pneumonia.
