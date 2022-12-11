@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="dicoding:email" content="salmafaa19@gmail.com">
+  <title>My Library</title>
+  <link rel="stylesheet" href="asset/style.css">
+</head>
+<body>
+<header>
+  <nav-bar></nav-bar>
+</header>
+
+<main>
+    <h1>My Library</h1>
+    <div class="flex-box">
+        <div class="container shadow" id="add-book">
+            <h2 class="container-header text-center">Add Journal</h2>
+            <form action="#" class="form" id="form">
+                <div class="form-group">
+                    <label for="title">Journal Title</label>
+                    <input type="text" id="title" name="title" required>
+                </div>
+                <div class="form-group">
+                    <label for="author">Author</label>
+                    <input type="text" id="author" name="author" required>
+                </div>
+                <div class="form-group">
+                    <label for="year">Link Journal</label>
+                    <input type="url" id="link" name="link" required>
+                </div>
+                <input type="submit" value="Submit" name="Submit" class="btn-submit">
+            </form>
+        </div>
+        <div class="box">
+        <div class="container">
+            <form id="searchJournal">
+                <h2>Search Journal</h2>
+                <input id="searchJournalTitle" type="text" placeholder="masukkan judul jurnal" />
+                <button type="submit" class="btn-submit">Cari</button>
+             </form>
+        </div>
+        <div class="container">
+            <h2 class="container-header">List Journal</h2>
+            <div class="list" id="list-journals">
+            </div>
+        </div>
+        </div>
+        <section class="input_edit_section">
+            <form id="editData">
+               <div class="input">
+                  <label for="inputEditTitle">Journal Title</label>
+                  <input id="inputEditTitle" type="text" required />
+               </div>
+               <div class="input">
+                  <label for="inputEditAuthor">Author</label>
+                  <input id="inputEditAuthor" type="text" required />
+               </div>
+               <div class="input">
+                  <label for="inputEditLink">Link Journal</label>
+                  <input id="inputEditLink" type="url" required />
+               </div>
+               <center>
+               <button id="journalEditCancel" class="btn-submit">Batal</button>
+               <button id="journalEditSubmit" type="submit" class="btn-submit">Simpan</button>
+               </center>
+            </form>
+         </section>
+    </div>
+</main>
+
+<footer>
+    <footer-bar></footer-bar>
+</footer>
+
+<script src="asset/script/component/nav-bar.js"></script>
+<script src="asset/script/component/footer-bar.js"></script>
+<script src="asset/script/storage.js"></script>
+</body>
+</html>
